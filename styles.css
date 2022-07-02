@@ -1,0 +1,162 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* Colors */
+:root {
+  --bg-01: #f1f5f9;
+  --bg-02: #94a3b8;
+  --txt-01: #475569;
+  --txt-02: #1e293b;
+  --blue-01: #2563eb;
+  --blue-02: #1d4ed8;
+  --white: #fff;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Selection */
+::selection {
+  color: var(--white);
+  background: var(--blue-02);
+}
+
+/* Body */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--txt-01);
+  background: var(--bg-01);
+}
+
+/* Main */
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header */
+#header {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+#header h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--txt-02);
+}
+
+/* Figure */
+#img-div {
+  padding-bottom: 2rem;
+}
+
+/* Image */
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+/* Caption */
+#img-caption {
+  font-size: .75rem;
+  font-style: italic;
+  padding-top: .75rem;
+}
+
+/* Section */
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Title Section */
+#tribute-info h3 {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+/* List */
+#tribute-info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* List Items */
+li {
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Pill */
+.pill {
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+  color: var(--white);
+  background: var(--bg-02);
+  font-size: .75rem;
+}
+
+/* Quote */
+#quote {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: .875rem;
+}
+
+#quote q {
+  quotes: "\0022""\0022";
+  text-align: justify;
+}
+
+#quote p {
+  text-align: right;
+}
+
+/* Button */
+#tribute-link {
+  color: var(--white);
+  background: var(--blue-01);
+  padding: 1rem;
+  text-align: center;
+  border-radius: .25rem;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  background: var(--blue-02);
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: .875rem;
+  border-top: 1px solid var(--bg-02);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--blue-01);
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: var(--blue-02);
+}
