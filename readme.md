@@ -2,10 +2,6 @@
 
 Responsive Web Design - Tribute Page
 
-## Screenshots
-
-![freeCodeCamp Tribute Page](images/screenshot.png "Tribute Page")
-
 ## Tech Stack
 
 - HTML
@@ -32,3 +28,7 @@ Build an app that is functionally similar to [https://tribute-page.freecodecamp.
 ## Demo
 
 For a demo, check out [https://alexperronnet.github.io/FCC-Tibute-Page/](https://alexperronnet.github.io/FCC-Tibute-Page/)
+
+## Screenshots
+
+![freeCodeCamp Tribute Page](images/screenshot.png "Tribute Page")
