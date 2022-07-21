@@ -27,7 +27,7 @@ Build an app that is functionally similar to [https://tribute-page.freecodecamp.
 
 ## Demo
 
-For a demo, check out [https://alexperronnet.github.io/FCC-Tibute-Page/](https://alexperronnet.github.io/FCC-Tibute-Page/)
+For a demo, check out [https://ap-fcc-tribute-page.netlify.app/](https://ap-fcc-tribute-page.netlify.app/)
 
 ## Screenshots
 
